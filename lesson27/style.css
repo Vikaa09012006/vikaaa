@@ -1,0 +1,35 @@
+.conteiner div {
+    background-color: rgb(63, 165, 16);
+    border-radius: 5px;
+}
+.conteiner {
+    display: grid;
+    grid-template-columns:minmax(150px, 1fr) 1fr 1fr;
+    grid-template-rows:minmax(200px, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.conteiner div:nth-child(1) {
+    background-color: rgb(163, 107, 189); 
+    grid-column: 1/5;
+}
+.conteiner div:nth-child(2) {
+    background-color: rgb(78, 214, 51);
+    grid-column: 1; 
+    grid-row: 2; 
+    height: 550px;  
+}
+.conteiner div:nth-child(3) {
+    background-color: rgba(161, 10, 10, 0.096);
+    grid-column: 2/4; 
+    height: 550px; 
+}
+.conteiner div:nth-child(4) {
+    background-color: rgb(29, 28, 134);
+    height: 550px;
+}
+.conteiner div:nth-child(5) {
+    background-color:rgb(245, 67, 12); 
+    grid-column: 1/5;
+    padding-top: 100px;
+}

@@ -1,0 +1,14 @@
+.grit div{
+background-color: aquamarine;
+border: 1px solid red ;
+border-radius: 5px;
+font-size: 13px;
+}
+.grit{
+    display: grid;
+    grid-template-columns:minmax(100px, 250px) 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    grid-template-rows: 200px 200px 200px;
+}

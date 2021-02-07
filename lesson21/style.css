@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+body{
+    background: linear-gradient(89.5deg, rgba(159, 255, 163, 0.52) 0.45%, rgba(0, 255, 240, 0.46) 19.43%, rgba(0, 102, 255, 0.65) 38.42%, rgba(112, 0, 255, 0.59) 55.55%, rgba(255, 0, 0, 0.53) 87.5%);
+    margin: 0;
+    padding: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+form{
+    background-color: #fff;
+    width: 600px;
+    height: 930px;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+h1{
+    max-width: 135px;
+    margin: auto;
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.main{
+    max-width: 300px;
+    margin: 250px auto;
+}
+
+.first{
+    justify-content: space-between;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+
+button{
+    border: solid 1px;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 50px;
+    height: 50px;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    background: linear-gradient(89.5deg, rgba(159, 255, 163, 0.52) 0.45%, rgba(0, 255, 240, 0.46) 19.43%, rgba(0, 102, 255, 0.65) 38.42%, rgba(112, 0, 255, 0.59) 55.55%, rgba(255, 0, 0, 0.53) 87.5%);
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 100px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 22px;
+    font-size: 24px;
+}
+
+.button:active {
+    bottom: -5px;
+}
