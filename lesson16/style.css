@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: cyan;
+}
+h1{
+    display:flex;
+    align-items: center;
+}
+.ico{
+    max-width: 300px;
+    max-height: 300px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.weather{
+    text-align: center;
+    width: 10%;
+    height: 100px;
+    background-color: rgba(238, 20, 238, 0.918);
+    border-radius: 5px;
+    transition: all 8s;
+    overflow: hidden;
+}
+.weather:hover{
+    width: 20%;
+    height: 500px;
+}
+.img{
+    width: 100px;
+}
