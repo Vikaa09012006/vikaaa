@@ -1,0 +1,18 @@
+.box{
+    background-color: rgb(244, 250, 250);
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 20% 20%;
+    overflow: hidden;
+    color: rgb(19, 18, 18);
+}
+.box:hover{
+    background-color: rgb(250, 243, 243);
+    width: 400px;
+    height: 400px;
+    margin: 15% 15%;
+}
+.box{
+    transition: all 0.8s;
+}
