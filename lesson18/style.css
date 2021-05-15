@@ -1,0 +1,22 @@
+.a{
+    background-color: aqua;
+    width: 300px;
+    height: 180px;
+    border-radius: 60% 60% 60% 40%;
+    justify-content: center;
+    display: flex;
+    border: 20px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}
+.b{
+    position: absolute;
+    bottom: 130px;
+    width: 50px; 
+    height: 80px;
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #05050567;
+    
+}
