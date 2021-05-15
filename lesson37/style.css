@@ -1,0 +1,243 @@
+.z {
+    background: url(./один.png) no-repeat;
+    background-size: 100%;
+}
+.z1 {
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.z2 {
+    width: 100%;
+    height: 600px;
+}
+.menu1 {
+    height: 80px;
+    width: 300px;
+    /* background-color: blue; */
+    margin-top: 40px;
+    margin-left: -450px;
+}
+.logo1 {
+    width: 250px;
+}
+.menu2 {
+    height: 80px;
+    width: 300px;
+    /* background-color: blue; */
+    margin-top: 40px;
+}
+.logo2 {
+    width: 600px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: -400px;
+}
+.z3 {
+    width: 600px;
+    height: 500px;
+    /* background-color: brown; */
+    margin-top: -350px;
+    margin-left: 300px;
+}
+.logo3 {
+    width: 750px;
+}
+.z4 {
+    width: 600px;
+    height: 500px;
+    /* background-color: brown; */
+    margin-top: -550px;
+    margin-left: 1500px;
+    display: flex;
+}
+.logo4 {
+    width: 600px;
+    height: 325px;
+}
+.logo5 {
+    width: 600px;
+    height: 300px;
+    margin-top: -550px;
+    margin-left: 1500px;
+}
+.s1 {
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 5000px;
+}
+.s2 {
+    width: 600px;
+    height: 500px;
+    /* background-color: crimson; */
+    margin-left: 900px;
+    margin-top: 100px;
+}
+.b1 {
+    float: left;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.k1 {
+    width: 500px;
+}
+.b2 {
+    float: left;
+    margin-top: -215px;
+    margin-left: 240px;
+}
+.k2 {
+    width: 500px;
+}
+.b3 {
+    float: left;
+    margin-top: -220px;
+    margin-left: 240px;
+}
+.k3 {
+    width: 500px;
+}
+.p1 {
+    width: 100%;
+    margin-top: 400px;
+}
+.s {
+    width: 800px;
+    height: 500px;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.service1 {
+    height: 35px;
+    width: 150px;
+    margin-left: 300px;
+}
+.service2 {
+    margin-left: 90px;
+    margin-top: 20px;
+    height: 40px;
+}
+.white {
+    height: 400px;
+    width: 1500px;
+    /* background-color: floralwhite; */
+    margin-top: -300px;
+    margin-left: 350px;
+    box-shadow: 2px 2px 15px 15px lightgray;
+}
+.roun {
+    width: 500px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 100px;
+    float: left;
+}
+.text {
+    height: 300px;
+    width: 800px;
+    /* background-color: gray; */
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+.parag1 {
+    font-size: 27px;
+    font-family: 'Kiwi Maru', serif;;
+}
+.class1 {
+    height: 60px;
+    box-shadow: 2px 2px 10px 10px lightgray;
+    width: 1000px;
+    /* background-color: gray; */
+    margin-left: 600px;
+    margin-top: 30px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+h3 {
+    font-family: 'Dela Gothic One', cursive;
+font-family: 'Kiwi Maru', serif;
+}
+.class2 {
+    height: 60px;
+    box-shadow: 2px 2px 10px 10px lightgray;
+    width: 1000px;
+    /* background-color: gray; */
+    margin-left: 600px;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+.class3 {
+    height: 60px;
+    box-shadow: 2px 2px 10px 10px lightgray;
+    width: 1000px;
+    /* background-color: gray; */
+    margin-left: 600px;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+.class4 {
+    height: 60px;
+    box-shadow: 2px 2px 10px 10px lightgray;
+    width: 1000px;
+    /* background-color: gray; */
+    margin-left: 600px;
+    margin-top: 20px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+.customers {
+    width: 100%;
+    height: 650px;
+    background-color: #1DE9B6;
+    margin-top: 170px;
+}
+.text1 {
+    height: 500px;
+    width: 600px;
+    /* background-color: lightgrey; */
+    margin-left: 250px;
+    padding-top: 100px;
+    float: left;
+}
+.parag2 {
+    font-size: 52px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.parag3 {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.customer1 {
+    height: 150px;
+    width: 1000px;
+    /* background-color: lightblue; */
+    float: left;
+    margin-top: 120px; 
+    margin-left: 300px;
+}
+.cus1 {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    float: left;
+}
+.text2 {
+    width: 800px;
+    height: 150px;
+    background-color: lightgreen;
+    float: left;
+    margin-left: 100px;
+}
